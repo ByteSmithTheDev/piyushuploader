@@ -47,37 +47,10 @@ try {
         $isImage = strpos($file['file_type'], 'image/') === 0;
         
         if ($isImage) {
-            // For images, return meta tags for Discord embed
-            header('Content-Type: text/html');
-            echo <<<HTML
-<!DOCTYPE html>
-<html>
-<head>
-    <meta property="og:title" content="{$file['original_filename']}">
-    <meta property="og:description" content="Shared via FileShare">
-    <meta property="og:image" content="{$file_url}">
-    <meta property="og:url" content="{$file_url}">
-    <meta property="og:type" content="website">
-    <meta name="theme-color" content="#e9ed0c">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="discord:embed" content="true">
-    <meta property="discord:color" content="#e9ed0c">
-    <meta property="discord:title" content="KEEP SMILING">
-    <meta property="discord:description" content="Piyush Uploads">
-</head>
-<body>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ImageObject",
-        "url": "{$file_url}",
-        "contentUrl": "{$file_url}",
-        "description": "Shared via FileShare"
-    }
-    </script>
-</body>
-</html>
-HTML;
+            // For images, we need to serve the actual image to Discord
+            header('Content-Type: ' . $file['file_type']);
+            header('Content-Length: ' . strlen($file['file_data']));
+            echo $file['file_data'];
             exit();
         } else {
             // For non-image files, return JSON with embed information
