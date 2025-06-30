@@ -1,70 +1,55 @@
 <?php
-header('Content-Type: application/json');
-
+session_start();
 require_once '../config/database.php';
 require_once '../includes/functions.php';
 
-// Set CORS headers
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: POST, OPTIONS");
-header("Access-Control-Allow-Headers: Authorization, Content-Type");
+// Set proper headers for JSON response
+header('Content-Type: application/json');
 
-// Handle preflight requests
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    exit(0);
+// Enable error logging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('log_errors', 1);
+ini_set('error_log', __DIR__ . '/../logs/api_errors.log');
+
+// Function to log errors
+function logError($message, $data = null) {
+    $logMessage = date('Y-m-d H:i:s') . " - " . $message;
+    if ($data) {
+        $logMessage .= "\nData: " . print_r($data, true);
+    }
+    error_log($logMessage . "\n", 3, __DIR__ . '/../logs/api_errors.log');
 }
 
-$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
-$domain = $_SERVER['HTTP_HOST'];
+// Verify API key
+$headers = getallheaders();
+$api_key = $headers['Authorization'] ?? null;
 
-// Get API key from headers
-$api_key = '';
-if (function_exists('getallheaders')) {
-    $headers = getallheaders();
-    $api_key = isset($headers['Authorization']) ? trim(str_replace('Bearer ', '', $headers['Authorization'])) : '';
-} elseif (isset($_SERVER['HTTP_AUTHORIZATION'])) {
-    $api_key = trim(str_replace('Bearer ', '', $_SERVER['HTTP_AUTHORIZATION']));
-}
-
-if (empty($api_key)) {
+if (!$api_key) {
     http_response_code(401);
     echo json_encode([
         'success' => false,
-        'error' => 'No API key provided',
-        'error_code' => 'missing_api_key'
+        'error' => 'API key not provided'
     ]);
     exit;
 }
 
-// Validate API key and get user ID
-$user_id = null;
-try {
-    $stmt = $pdo->prepare("SELECT id FROM users WHERE api_key = ? LIMIT 1");
-    $stmt->execute([$api_key]);
-    $result = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    if ($result && isset($result['id'])) {
-        $user_id = (int)$result['id'];
-    } else {
-        http_response_code(401);
-        echo json_encode([
-            'success' => false,
-            'error' => 'Invalid API key',
-            'error_code' => 'invalid_api_key'
-        ]);
-        exit;
-    }
-} catch (PDOException $e) {
-    http_response_code(500);
+// Get user by API key
+$stmt = $pdo->prepare("SELECT id FROM users WHERE api_key = ?");
+$stmt->execute([$api_key]);
+$user = $stmt->fetch();
+
+if (!$user) {
+    http_response_code(401);
     echo json_encode([
         'success' => false,
-        'error' => 'Database error during authentication',
-        'error_code' => 'auth_db_error'
+        'error' => 'Invalid API key'
     ]);
     exit;
 }
 
-// Handle file upload
+$user_id = $user['id'];
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Verify file was uploaded properly
     if (!isset($_FILES['file']) || !is_uploaded_file($_FILES['file']['tmp_name'])) {
@@ -102,78 +87,64 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
+    // Create upload directory if it doesn't exist
+    $uploadDir = __DIR__ . '/../upload';
+    if (!file_exists($uploadDir)) {
+        if (!mkdir($uploadDir, 0777, true)) {
+            logError('Failed to create upload directory', ['path' => $uploadDir]);
+            http_response_code(500);
+            echo json_encode([
+                'success' => false,
+                'error' => 'Failed to create upload directory'
+            ]);
+            exit;
+        }
+    }
+
     // Process file data
     try {
-        $fileData = file_get_contents($file['tmp_name']);
-        if ($fileData === false) {
-            throw new Exception('Could not read uploaded file');
-        }
-
         $originalFilename = basename($file['name']);
         $fileType = $file['type'];
         $fileSize = $file['size'];
         $extension = pathinfo($originalFilename, PATHINFO_EXTENSION);
         $randomFilename = generateRandomString(12) . ($extension ? '.' . $extension : '');
+        $uploadPath = $uploadDir . '/' . $randomFilename;
 
-        $pdo->beginTransaction();
+        // Move uploaded file
+        if (!move_uploaded_file($file['tmp_name'], $uploadPath)) {
+            throw new Exception('Failed to move uploaded file');
+        }
 
-        // Insert file metadata
-        $stmt = $pdo->prepare("
-            INSERT INTO files 
-            (user_id, filename, original_filename, file_type, file_size, upload_date) 
-            VALUES (?, ?, ?, ?, ?, NOW())
-        ");
-        $stmt->execute([
-            $user_id,
-            $randomFilename,
-            $originalFilename,
-            $fileType,
-            $fileSize
-        ]);
+        // Insert file record into database
+        $stmt = $pdo->prepare("INSERT INTO files (user_id, filename, original_filename, file_size, file_type, upload_date) VALUES (?, ?, ?, ?, ?, NOW())");
+        $stmt->execute([$user_id, $randomFilename, $originalFilename, $fileSize, $fileType]);
 
-        $fileId = $pdo->lastInsertId();
+        // Generate file URL
+        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
+        $domain = $_SERVER['HTTP_HOST'];
+        $fileUrl = $protocol . $domain . '/view.php?id=' . $randomFilename;
 
-        // Store file content
-        $stmt = $pdo->prepare("
-            INSERT INTO file_data 
-            (file_id, file_data) 
-            VALUES (?, ?)
-        ");
-        $stmt->execute([$fileId, $fileData]);
-
-        $pdo->commit();
-
-        // Successful response
-        http_response_code(201);
         echo json_encode([
             'success' => true,
-            'url' => $protocol . $domain . '/view.php?id=' . $randomFilename,
-            'filename' => $originalFilename,
-            'file_size' => $fileSize,
-            'file_type' => $fileType,
-            'file_id' => $fileId
+            'url' => $fileUrl
         ]);
-        exit;
 
     } catch (Exception $e) {
-        if ($pdo->inTransaction()) {
-            $pdo->rollBack();
-        }
+        logError('File upload failed', [
+            'error' => $e->getMessage(),
+            'file' => $file
+        ]);
+
         http_response_code(500);
         echo json_encode([
             'success' => false,
-            'error' => 'Upload processing failed',
-            'error_code' => 'upload_processing_error',
-            'system_message' => $e->getMessage()
+            'error' => 'Failed to process upload: ' . $e->getMessage()
         ]);
-        exit;
     }
+} else {
+    http_response_code(405);
+    echo json_encode([
+        'success' => false,
+        'error' => 'Method not allowed'
+    ]);
 }
-
-// If request method isn't POST
-http_response_code(405);
-echo json_encode([
-    'success' => false,
-    'error' => 'Invalid request method',
-    'error_code' => 'invalid_method'
-]);

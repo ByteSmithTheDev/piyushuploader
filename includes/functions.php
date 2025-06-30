@@ -40,4 +40,43 @@ function getFileById($pdo, $file_id) {
     $stmt->execute([$file_id]);
     return $stmt->fetch();
 }
+
+function isImageFile($fileType) {
+    $imageTypes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp', 'image/bmp', 'image/svg+xml'];
+    return in_array($fileType, $imageTypes);
+}
+
+function getFileIcon($fileType) {
+    if (isImageFile($fileType)) {
+        return 'fa-image';
+    }
+    
+    $iconMap = [
+        'application/pdf' => 'fa-file-pdf',
+        'application/msword' => 'fa-file-word',
+        'application/vnd.openxmlformats-officedocument.wordprocessingml.document' => 'fa-file-word',
+        'application/vnd.ms-excel' => 'fa-file-excel',
+        'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' => 'fa-file-excel',
+        'application/vnd.ms-powerpoint' => 'fa-file-powerpoint',
+        'application/vnd.openxmlformats-officedocument.presentationml.presentation' => 'fa-file-powerpoint',
+        'text/plain' => 'fa-file-alt',
+        'text/html' => 'fa-file-code',
+        'text/css' => 'fa-file-code',
+        'text/javascript' => 'fa-file-code',
+        'application/json' => 'fa-file-code',
+        'application/zip' => 'fa-file-archive',
+        'application/x-rar-compressed' => 'fa-file-archive',
+        'application/x-7z-compressed' => 'fa-file-archive',
+        'audio/' => 'fa-file-audio',
+        'video/' => 'fa-file-video'
+    ];
+
+    foreach ($iconMap as $type => $icon) {
+        if (strpos($fileType, $type) === 0) {
+            return $icon;
+        }
+    }
+
+    return 'fa-file';
+}
 ?>

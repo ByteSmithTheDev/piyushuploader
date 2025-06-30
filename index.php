@@ -4,8 +4,10 @@ require_once 'config/database.php';
 require_once 'includes/functions.php';
 
 // Enable error reporting for debugging
+ini_set('display_errors', 0); // Don't display errors in response
+ini_set('log_errors', 1);     // Log errors to file
+ini_set('error_log', '/path/to/php-error.log'); // Set a writable log file
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
 if (!isset($_SESSION['user_id'])) {
     header('Location: login.php');
@@ -313,7 +315,16 @@ $storage_percent = min(($total_size / $storage_limit) * 100, 100);
                         <div class="bg-gray-800 rounded-lg p-4">
                             <code class="text-sm text-green-400">https://<?= $_SERVER['HTTP_HOST'] ?>/upload.php</code>
                         </div>
-                        <p class="text-gray-400 text-sm">API Key: <span class="text-white"><?= htmlspecialchars($api_key) ?></span></p>
+                        <div class="relative">
+                            <p class="text-gray-400 text-sm">API Key:</p>
+                            <div class="api-key-container bg-gray-800 rounded-lg p-4 mt-1 overflow-x-auto w-full">
+                                <code class="text-sm text-white blur-sm hover:blur-none transition-all duration-300 cursor-pointer select-none whitespace-nowrap" 
+                                      onclick="copyApiKey('<?= htmlspecialchars($api_key) ?>')"
+                                      title="Click to copy">
+                                    <?= htmlspecialchars($api_key) ?>
+                                </code>
+                            </div>
+                        </div>
                         <a href="sharex.php" class="block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center">
                             <i class="fas fa-download mr-2"></i> Download ShareX Config
                         </a>
@@ -360,6 +371,7 @@ $storage_percent = min(($total_size / $storage_limit) * 100, 100);
                                 <div class="w-full bg-gray-700 rounded-full h-2.5 mt-2">
                                     <div id="uploadProgress" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
                                 </div>
+                                <p id="uploadProgressText" class="text-sm text-gray-400 mt-1">0%</p>
                             </div>
                         </div>
                     </div>
@@ -407,29 +419,73 @@ $storage_percent = min(($total_size / $storage_limit) * 100, 100);
                 </button>
             </div>
             <div class="p-6">
-                <form id="advancedUploadForm" action="upload.php" method="post" enctype="multipart/form-data" class="space-y-4">
-                    <input type="hidden" name="api_key" value="<?= htmlspecialchars($api_key) ?>">
+                <form id="advancedUploadForm" class="space-y-4">
                     <div>
                         <label class="block text-gray-400 mb-2">File</label>
-                        <input type="file" name="file" class="w-full bg-gray-700 border border-gray-600 rounded-lg p-2" required>
+                        <input type="file" id="advancedFileInput" class="w-full bg-gray-700 border border-gray-600 rounded-lg p-2" required>
                     </div>
                     <div>
                         <label class="block text-gray-400 mb-2">Custom Filename (optional)</label>
-                        <input type="text" name="custom_name" class="w-full bg-gray-700 border border-gray-600 rounded-lg p-2" placeholder="Leave blank for original filename">
+                        <input type="text" id="customName" class="w-full bg-gray-700 border border-gray-600 rounded-lg p-2" placeholder="Leave blank for original filename">
                     </div>
                     <div>
                         <label class="block text-gray-400 mb-2">Password Protection (optional)</label>
-                        <input type="password" name="file_password" class="w-full bg-gray-700 border border-gray-600 rounded-lg p-2" placeholder="Leave blank for no password">
+                        <input type="password" id="filePassword" class="w-full bg-gray-700 border border-gray-600 rounded-lg p-2" placeholder="Leave blank for no password">
                     </div>
                     <div class="flex justify-end space-x-3 pt-4">
                         <button type="button" onclick="toggleUploadModal()" class="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg">
                             Cancel
                         </button>
-                        <button type="submit" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center">
+                        <button type="button" onclick="uploadAdvancedFile()" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg flex items-center">
                             <i class="fas fa-upload mr-2"></i> Upload
                         </button>
                     </div>
                 </form>
+                <div id="advancedUploadStatus" class="mt-4 hidden">
+                    <div class="bg-gray-800 rounded-lg p-4">
+                        <div class="flex items-center">
+                            <div class="mr-3">
+                                <i class="fas fa-spinner fa-spin text-blue-400"></i>
+                            </div>
+                            <div class="flex-1">
+                                <p class="font-medium">Uploading file...</p>
+                                <div class="w-full bg-gray-700 rounded-full h-2.5 mt-2">
+                                    <div id="advancedUploadProgress" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                                </div>
+                                <p id="advancedUploadProgressText" class="text-sm text-gray-400 mt-1">0%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="advancedUploadResult" class="mt-4 hidden">
+                    <div class="bg-gray-800 rounded-lg p-4">
+                        <div class="flex items-center">
+                            <div class="mr-3">
+                                <i class="fas fa-check-circle text-green-400"></i>
+                            </div>
+                            <div class="flex-1">
+                                <p class="font-medium">Upload successful!</p>
+                                <p class="text-sm text-gray-400 mt-1">File URL: <span id="advancedUploadedUrl" class="text-blue-400"></span></p>
+                                <button onclick="copyAdvancedUploadedUrl()" class="mt-2 text-sm bg-blue-600 hover:bg-blue-700 text-white py-1 px-3 rounded">
+                                    <i class="fas fa-copy mr-1"></i> Copy URL
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="advancedUploadError" class="mt-4 hidden">
+                    <div class="bg-red-800 rounded-lg p-4">
+                        <div class="flex items-center">
+                            <div class="mr-3">
+                                <i class="fas fa-exclamation-circle text-red-400"></i>
+                            </div>
+                            <div class="flex-1">
+                                <p class="font-medium" id="advancedErrorMessage">Upload failed!</p>
+                                <p class="text-sm text-red-300 mt-1" id="advancedErrorDetails"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -525,82 +581,122 @@ $storage_percent = min(($total_size / $storage_limit) * 100, 100);
             fileSizeElement.textContent = formatFileSize(file.size);
         }
         
-        // File upload function
-        function uploadFile() {
-            const statusElement = document.getElementById('uploadStatus');
-            const progressElement = document.getElementById('uploadProgress');
-            const resultElement = document.getElementById('uploadResult');
-            const errorElement = document.getElementById('uploadError');
-            const uploadedUrlElement = document.getElementById('uploadedUrl');
-            
-            // Reset UI
-            resultElement.classList.add('hidden');
-            errorElement.classList.add('hidden');
-            statusElement.classList.remove('hidden');
-            progressElement.style.width = '0%';
-            
+        // Chunked file upload
+        async function uploadFile() {
             const file = fileInput.files[0];
             if (!file) {
                 showError('Please select a file first');
                 return;
             }
-            
-            // Validate file size (2GB limit)
-            if (file.size > 2 * 1024 * 1024 * 1024) {
-                showError('File too large', 'Maximum file size is 2GB');
-                return;
-            }
 
-            const formData = new FormData();
-            formData.append('file', file);
-            
-            const xhr = new XMLHttpRequest();
-            xhr.open('POST', 'upload.php', true);
-            xhr.setRequestHeader('Authorization', 'Bearer <?= $api_key ?>');
-            
-            xhr.upload.onprogress = function(e) {
-                if (e.lengthComputable) {
-                    const percentComplete = Math.round((e.loaded / e.total) * 100);
-                    progressElement.style.width = percentComplete + '%';
-                    
-                    // Update text progress
-                    const progressText = `${formatFileSize(e.loaded)} of ${formatFileSize(e.total)} (${percentComplete}%)`;
-                    dropArea.querySelector('p.text-sm').textContent = progressText;
+            const CHUNK_SIZE = 1024 * 1024; // 1MB chunks
+            const totalChunks = Math.ceil(file.size / CHUNK_SIZE);
+            let uploadedChunks = 0;
+            let uploadId = null;
+
+            // Show upload status
+            const statusElement = document.getElementById('uploadStatus');
+            const progressElement = document.getElementById('uploadProgress');
+            const progressTextElement = document.getElementById('uploadProgressText');
+            const resultElement = document.getElementById('uploadResult');
+            const errorElement = document.getElementById('uploadError');
+
+            // Reset UI
+            resultElement.classList.add('hidden');
+            errorElement.classList.add('hidden');
+            statusElement.classList.remove('hidden');
+            progressElement.style.width = '0%';
+            progressTextElement.textContent = '0%';
+
+            try {
+                // Initialize upload
+                const initResponse = await fetch('upload.php?action=init', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        filename: file.name,
+                        size: file.size,
+                        type: file.type
+                    })
+                });
+
+                const initData = await initResponse.json();
+                if (!initData.success) {
+                    throw new Error(initData.error || 'Failed to initialize upload');
                 }
-            };
-            
-            xhr.onload = function() {
-                statusElement.classList.add('hidden');
-                
-                try {
-                    const response = JSON.parse(xhr.responseText);
-                    if (response.success) {
-                        uploadedUrlElement.textContent = response.url;
-                        uploadedUrlElement.setAttribute('data-url', response.url);
-                        resultElement.classList.remove('hidden');
-                        
-                        // Reset drop area
-                        dropArea.querySelector('p.text-lg').textContent = 'Drag & drop files here';
-                        dropArea.querySelector('p.text-sm').textContent = 'or click to browse (Max 2GB)';
-                        
-                        // Refresh file list after 2 seconds
-                        setTimeout(() => {
-                            window.location.reload();
-                        }, 2000);
-                    } else {
-                        showError(response.error || 'Upload failed', response.system_message || '');
+
+                uploadId = initData.upload_id;
+
+                // Upload chunks
+                for (let chunkIndex = 0; chunkIndex < totalChunks; chunkIndex++) {
+                    const start = chunkIndex * CHUNK_SIZE;
+                    const end = Math.min(start + CHUNK_SIZE, file.size);
+                    const chunk = file.slice(start, end);
+
+                    const formData = new FormData();
+                    formData.append('chunk', chunk);
+                    formData.append('chunk_index', chunkIndex);
+                    formData.append('upload_id', uploadId);
+
+                    const response = await fetch('upload.php?action=chunk', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const data = await response.json();
+                    if (!data.success) {
+                        throw new Error(`Failed to upload chunk ${chunkIndex + 1}/${totalChunks}: ${data.error || 'Unknown error'}`);
                     }
-                } catch (e) {
-                    showError('Error parsing server response', xhr.responseText);
+
+                    uploadedChunks++;
+                    const progress = Math.round((uploadedChunks / totalChunks) * 100);
+                    progressElement.style.width = progress + '%';
+                    progressTextElement.textContent = `${progress}%`;
                 }
-            };
-            
-            xhr.onerror = function() {
+
+                // Complete upload
+                const completeResponse = await fetch('upload.php?action=complete', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        upload_id: uploadId
+                    })
+                });
+
+                const completeData = await completeResponse.json();
+                if (!completeData.success) {
+                    throw new Error(completeData.error || 'Failed to complete upload');
+                }
+
+                // Show success
                 statusElement.classList.add('hidden');
-                showError('Network error', 'Failed to connect to server');
-            };
-            
-            xhr.send(formData);
+                document.getElementById('uploadedUrl').textContent = completeData.url;
+                document.getElementById('uploadedUrl').setAttribute('data-url', completeData.url);
+                resultElement.classList.remove('hidden');
+
+                // Reset form and file input
+                fileInput.value = '';
+                dropArea.querySelector('p.text-lg').textContent = 'Drag & drop files here';
+                dropArea.querySelector('p.text-sm').textContent = 'or click to browse (Max 2GB)';
+
+                // Refresh file list after 2 seconds
+                setTimeout(() => {
+                    window.location.reload();
+                }, 2000);
+
+            } catch (error) {
+                statusElement.classList.add('hidden');
+                showError('Upload failed', error.message);
+                
+                // Reset file input on error
+                fileInput.value = '';
+                dropArea.querySelector('p.text-lg').textContent = 'Drag & drop files here';
+                dropArea.querySelector('p.text-sm').textContent = 'or click to browse (Max 2GB)';
+            }
         }
 
         function showError(message, details = '') {
@@ -635,7 +731,9 @@ $storage_percent = min(($total_size / $storage_limit) * 100, 100);
         
         // Handle click on file input label
         document.querySelector('label[for="fileInput"]').addEventListener('click', function(e) {
-            if (e.target.tagName !== 'INPUT') {
+            // Only trigger if the click is directly on the label, not on the input
+            if (e.target.tagName === 'LABEL') {
+                e.preventDefault();
                 fileInput.click();
             }
         });
@@ -646,6 +744,188 @@ $storage_percent = min(($total_size / $storage_limit) * 100, 100);
                 updateFileInfo(fileInput.files[0]);
             }
         });
+
+        // Advanced file input handling
+        document.getElementById('advancedFileInput').addEventListener('change', function() {
+            if (this.files.length) {
+                // Update custom name field with filename (without extension) if empty
+                const customNameInput = document.getElementById('customName');
+                if (!customNameInput.value) {
+                    const fileName = this.files[0].name;
+                    const nameWithoutExt = fileName.substring(0, fileName.lastIndexOf('.')) || fileName;
+                    customNameInput.value = nameWithoutExt;
+                }
+            }
+        });
+
+        // Advanced file upload function
+        async function uploadAdvancedFile() {
+            const file = document.getElementById('advancedFileInput').files[0];
+            if (!file) {
+                showAdvancedError('Please select a file first');
+                return;
+            }
+
+            const CHUNK_SIZE = 1024 * 1024; // 1MB chunks
+            const totalChunks = Math.ceil(file.size / CHUNK_SIZE);
+            let uploadedChunks = 0;
+            let uploadId = null;
+
+            // Show upload status
+            const statusElement = document.getElementById('advancedUploadStatus');
+            const progressElement = document.getElementById('advancedUploadProgress');
+            const progressTextElement = document.getElementById('advancedUploadProgressText');
+            const resultElement = document.getElementById('advancedUploadResult');
+            const errorElement = document.getElementById('advancedUploadError');
+
+            // Reset UI
+            resultElement.classList.add('hidden');
+            errorElement.classList.add('hidden');
+            statusElement.classList.remove('hidden');
+            progressElement.style.width = '0%';
+            progressTextElement.textContent = '0%';
+
+            try {
+                // Initialize upload
+                const initResponse = await fetch('upload.php?action=init', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        filename: file.name,
+                        size: file.size,
+                        type: file.type,
+                        custom_name: document.getElementById('customName').value,
+                        password: document.getElementById('filePassword').value
+                    })
+                });
+
+                const initData = await initResponse.json();
+                if (!initData.success) {
+                    throw new Error(initData.error || 'Failed to initialize upload');
+                }
+
+                uploadId = initData.upload_id;
+
+                // Upload chunks
+                for (let chunkIndex = 0; chunkIndex < totalChunks; chunkIndex++) {
+                    const start = chunkIndex * CHUNK_SIZE;
+                    const end = Math.min(start + CHUNK_SIZE, file.size);
+                    const chunk = file.slice(start, end);
+
+                    const formData = new FormData();
+                    formData.append('chunk', chunk);
+                    formData.append('chunk_index', chunkIndex);
+                    formData.append('upload_id', uploadId);
+
+                    const response = await fetch('upload.php?action=chunk', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const data = await response.json();
+                    if (!data.success) {
+                        throw new Error(`Failed to upload chunk ${chunkIndex + 1}/${totalChunks}: ${data.error || 'Unknown error'}`);
+                    }
+
+                    uploadedChunks++;
+                    const progress = Math.round((uploadedChunks / totalChunks) * 100);
+                    progressElement.style.width = progress + '%';
+                    progressTextElement.textContent = `${progress}%`;
+                }
+
+                // Complete upload
+                const completeResponse = await fetch('upload.php?action=complete', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        upload_id: uploadId,
+                        custom_name: document.getElementById('customName').value,
+                        password: document.getElementById('filePassword').value
+                    })
+                });
+
+                const completeData = await completeResponse.json();
+                if (!completeData.success) {
+                    throw new Error(completeData.error || 'Failed to complete upload');
+                }
+
+                // Show success
+                statusElement.classList.add('hidden');
+                document.getElementById('advancedUploadedUrl').textContent = completeData.url;
+                document.getElementById('advancedUploadedUrl').setAttribute('data-url', completeData.url);
+                resultElement.classList.remove('hidden');
+
+                // Reset form
+                document.getElementById('advancedFileInput').value = '';
+                document.getElementById('customName').value = '';
+                document.getElementById('filePassword').value = '';
+
+                // Close modal after 2 seconds
+                setTimeout(() => {
+                    toggleUploadModal();
+                    window.location.reload();
+                }, 2000);
+
+            } catch (error) {
+                statusElement.classList.add('hidden');
+                showAdvancedError('Upload failed', error.message);
+                
+                // Reset form on error
+                document.getElementById('advancedFileInput').value = '';
+                document.getElementById('customName').value = '';
+                document.getElementById('filePassword').value = '';
+            }
+        }
+
+        function showAdvancedError(message, details = '') {
+            const errorElement = document.getElementById('advancedUploadError');
+            document.getElementById('advancedErrorMessage').textContent = message;
+            document.getElementById('advancedErrorDetails').textContent = details;
+            errorElement.classList.remove('hidden');
+            
+            // Scroll to error message
+            errorElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        function copyAdvancedUploadedUrl() {
+            const url = document.getElementById('advancedUploadedUrl').getAttribute('data-url');
+            if (url) {
+                navigator.clipboard.writeText(url);
+                
+                // Show copied notification
+                const notification = document.createElement('div');
+                notification.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg flex items-center';
+                notification.innerHTML = `
+                    <i class="fas fa-check-circle mr-2"></i>
+                    <span>URL copied to clipboard!</span>
+                `;
+                document.body.appendChild(notification);
+                
+                setTimeout(() => {
+                    notification.remove();
+                }, 3000);
+            }
+        }
+
+        function copyApiKey(key) {
+            navigator.clipboard.writeText(key).then(() => {
+                const notification = document.createElement('div');
+                notification.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg flex items-center';
+                notification.innerHTML = `
+                    <i class="fas fa-check-circle mr-2"></i>
+                    <span>API Key copied to clipboard!</span>
+                `;
+                document.body.appendChild(notification);
+                
+                setTimeout(() => {
+                    notification.remove();
+                }, 3000);
+            });
+        }
     </script>
 </body>
 </html>

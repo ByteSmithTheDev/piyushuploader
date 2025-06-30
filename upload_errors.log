@@ -1,0 +1,2695 @@
+[25-May-2025 04:31:54 UTC] POST request received
+[25-May-2025 04:31:54 UTC] Content-Length: 97
+[25-May-2025 04:31:54 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:54 UTC] Post max size: 8M
+2025-05-25 04:31:54 - Upload initialized
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [data] => Array
+        (
+            [filename] => Rex_Noob.mp4
+            [size] => 27167571
+            [type] => video/mp4
+            [custom_name] => 
+            [password] => 1234
+        )
+
+)
+
+[25-May-2025 04:31:54 UTC] POST request received
+[25-May-2025 04:31:54 UTC] Content-Length: 1048996
+[25-May-2025 04:31:54 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:54 UTC] Post max size: 8M
+2025-05-25 04:31:54 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 0
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:55 UTC] POST request received
+[25-May-2025 04:31:55 UTC] Content-Length: 1048996
+[25-May-2025 04:31:55 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:55 UTC] Post max size: 8M
+2025-05-25 04:31:55 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 1
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:55 UTC] POST request received
+[25-May-2025 04:31:55 UTC] Content-Length: 1048996
+[25-May-2025 04:31:55 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:55 UTC] Post max size: 8M
+2025-05-25 04:31:55 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 2
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:55 UTC] POST request received
+[25-May-2025 04:31:55 UTC] Content-Length: 1048996
+[25-May-2025 04:31:55 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:55 UTC] Post max size: 8M
+2025-05-25 04:31:55 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 3
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:55 UTC] POST request received
+[25-May-2025 04:31:55 UTC] Content-Length: 1048996
+[25-May-2025 04:31:55 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:55 UTC] Post max size: 8M
+2025-05-25 04:31:55 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 4
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:56 UTC] POST request received
+[25-May-2025 04:31:56 UTC] Content-Length: 1048996
+[25-May-2025 04:31:56 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:56 UTC] Post max size: 8M
+2025-05-25 04:31:56 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 5
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:56 UTC] POST request received
+[25-May-2025 04:31:56 UTC] Content-Length: 1048996
+[25-May-2025 04:31:56 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:56 UTC] Post max size: 8M
+2025-05-25 04:31:56 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 6
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:56 UTC] POST request received
+[25-May-2025 04:31:56 UTC] Content-Length: 1048996
+[25-May-2025 04:31:56 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:56 UTC] Post max size: 8M
+2025-05-25 04:31:56 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 7
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:56 UTC] POST request received
+[25-May-2025 04:31:56 UTC] Content-Length: 1048996
+[25-May-2025 04:31:56 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:56 UTC] Post max size: 8M
+2025-05-25 04:31:56 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 8
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:57 UTC] POST request received
+[25-May-2025 04:31:57 UTC] Content-Length: 1048996
+[25-May-2025 04:31:57 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:57 UTC] Post max size: 8M
+2025-05-25 04:31:57 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 9
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:57 UTC] POST request received
+[25-May-2025 04:31:57 UTC] Content-Length: 1048997
+[25-May-2025 04:31:57 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:57 UTC] Post max size: 8M
+2025-05-25 04:31:57 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 10
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:57 UTC] POST request received
+[25-May-2025 04:31:57 UTC] Content-Length: 1048997
+[25-May-2025 04:31:57 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:57 UTC] Post max size: 8M
+2025-05-25 04:31:57 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 11
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:57 UTC] POST request received
+[25-May-2025 04:31:57 UTC] Content-Length: 1048997
+[25-May-2025 04:31:57 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:57 UTC] Post max size: 8M
+2025-05-25 04:31:57 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 12
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:58 UTC] POST request received
+[25-May-2025 04:31:58 UTC] Content-Length: 1048997
+[25-May-2025 04:31:58 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:58 UTC] Post max size: 8M
+2025-05-25 04:31:58 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 13
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:58 UTC] POST request received
+[25-May-2025 04:31:58 UTC] Content-Length: 1048997
+[25-May-2025 04:31:58 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:58 UTC] Post max size: 8M
+2025-05-25 04:31:58 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 14
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:58 UTC] POST request received
+[25-May-2025 04:31:58 UTC] Content-Length: 1048997
+[25-May-2025 04:31:58 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:58 UTC] Post max size: 8M
+2025-05-25 04:31:58 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 15
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:58 UTC] POST request received
+[25-May-2025 04:31:58 UTC] Content-Length: 1048997
+[25-May-2025 04:31:58 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:58 UTC] Post max size: 8M
+2025-05-25 04:31:58 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 16
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:59 UTC] POST request received
+[25-May-2025 04:31:59 UTC] Content-Length: 1048997
+[25-May-2025 04:31:59 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:59 UTC] Post max size: 8M
+2025-05-25 04:31:59 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 17
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:59 UTC] POST request received
+[25-May-2025 04:31:59 UTC] Content-Length: 1048997
+[25-May-2025 04:31:59 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:59 UTC] Post max size: 8M
+2025-05-25 04:31:59 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 18
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:59 UTC] POST request received
+[25-May-2025 04:31:59 UTC] Content-Length: 1048997
+[25-May-2025 04:31:59 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:59 UTC] Post max size: 8M
+2025-05-25 04:31:59 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 19
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:31:59 UTC] POST request received
+[25-May-2025 04:31:59 UTC] Content-Length: 1048997
+[25-May-2025 04:31:59 UTC] Upload max filesize: 2M
+[25-May-2025 04:31:59 UTC] Post max size: 8M
+2025-05-25 04:31:59 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 20
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:00 UTC] POST request received
+[25-May-2025 04:32:00 UTC] Content-Length: 1048997
+[25-May-2025 04:32:00 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:00 UTC] Post max size: 8M
+2025-05-25 04:32:00 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 21
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:00 UTC] POST request received
+[25-May-2025 04:32:00 UTC] Content-Length: 1048997
+[25-May-2025 04:32:00 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:00 UTC] Post max size: 8M
+2025-05-25 04:32:00 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 22
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:00 UTC] POST request received
+[25-May-2025 04:32:00 UTC] Content-Length: 1048997
+[25-May-2025 04:32:00 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:00 UTC] Post max size: 8M
+2025-05-25 04:32:00 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 23
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:00 UTC] POST request received
+[25-May-2025 04:32:00 UTC] Content-Length: 1048997
+[25-May-2025 04:32:00 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:00 UTC] Post max size: 8M
+2025-05-25 04:32:00 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 24
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:01 UTC] POST request received
+[25-May-2025 04:32:01 UTC] Content-Length: 953592
+[25-May-2025 04:32:01 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:01 UTC] Post max size: 8M
+2025-05-25 04:32:01 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunk_index] => 25
+    [chunk_size] => 953171
+)
+
+[25-May-2025 04:32:01 UTC] POST request received
+[25-May-2025 04:32:01 UTC] Content-Length: 83
+[25-May-2025 04:32:01 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:01 UTC] Post max size: 8M
+2025-05-25 04:32:01 - Starting file completion
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [chunks] => 26
+    [total_size] => 27167571
+)
+
+2025-05-25 04:32:01 - Upload completion failed
+Data: Array
+(
+    [upload_id] => cBKPi4ZYTrCvVeupjtoMh2q0s5EQGNn6
+    [error] => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'INSERT INTO'
+    [trace] => #0 C:\Users\jainv\Desktop\Custom_API\upload.php(232): PDOStatement->execute(Array)
+#1 {main}
+)
+
+[25-May-2025 04:32:08 UTC] POST request received
+[25-May-2025 04:32:08 UTC] Content-Length: 97
+[25-May-2025 04:32:08 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:08 UTC] Post max size: 8M
+2025-05-25 04:32:08 - Upload initialized
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [data] => Array
+        (
+            [filename] => Rex_Noob.mp4
+            [size] => 27167571
+            [type] => video/mp4
+            [custom_name] => 
+            [password] => 1234
+        )
+
+)
+
+[25-May-2025 04:32:08 UTC] POST request received
+[25-May-2025 04:32:08 UTC] Content-Length: 1048996
+[25-May-2025 04:32:08 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:08 UTC] Post max size: 8M
+2025-05-25 04:32:08 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 0
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:08 UTC] POST request received
+[25-May-2025 04:32:08 UTC] Content-Length: 1048996
+[25-May-2025 04:32:08 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:08 UTC] Post max size: 8M
+2025-05-25 04:32:08 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 1
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:08 UTC] POST request received
+[25-May-2025 04:32:08 UTC] Content-Length: 1048996
+[25-May-2025 04:32:08 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:08 UTC] Post max size: 8M
+2025-05-25 04:32:08 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 2
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:09 UTC] POST request received
+[25-May-2025 04:32:09 UTC] Content-Length: 1048996
+[25-May-2025 04:32:09 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:09 UTC] Post max size: 8M
+2025-05-25 04:32:09 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 3
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:09 UTC] POST request received
+[25-May-2025 04:32:09 UTC] Content-Length: 1048996
+[25-May-2025 04:32:09 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:09 UTC] Post max size: 8M
+2025-05-25 04:32:09 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 4
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:09 UTC] POST request received
+[25-May-2025 04:32:09 UTC] Content-Length: 1048996
+[25-May-2025 04:32:09 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:09 UTC] Post max size: 8M
+2025-05-25 04:32:09 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 5
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:09 UTC] POST request received
+[25-May-2025 04:32:09 UTC] Content-Length: 1048996
+[25-May-2025 04:32:09 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:09 UTC] Post max size: 8M
+2025-05-25 04:32:09 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 6
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:10 UTC] POST request received
+[25-May-2025 04:32:10 UTC] Content-Length: 1048996
+[25-May-2025 04:32:10 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:10 UTC] Post max size: 8M
+2025-05-25 04:32:10 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 7
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:10 UTC] POST request received
+[25-May-2025 04:32:10 UTC] Content-Length: 1048996
+[25-May-2025 04:32:10 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:10 UTC] Post max size: 8M
+2025-05-25 04:32:10 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 8
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:10 UTC] POST request received
+[25-May-2025 04:32:10 UTC] Content-Length: 1048996
+[25-May-2025 04:32:10 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:10 UTC] Post max size: 8M
+2025-05-25 04:32:10 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 9
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:10 UTC] POST request received
+[25-May-2025 04:32:10 UTC] Content-Length: 1048997
+[25-May-2025 04:32:10 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:10 UTC] Post max size: 8M
+2025-05-25 04:32:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 10
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:11 UTC] POST request received
+[25-May-2025 04:32:11 UTC] Content-Length: 1048997
+[25-May-2025 04:32:11 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:11 UTC] Post max size: 8M
+2025-05-25 04:32:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 11
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:11 UTC] POST request received
+[25-May-2025 04:32:11 UTC] Content-Length: 1048997
+[25-May-2025 04:32:11 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:11 UTC] Post max size: 8M
+2025-05-25 04:32:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 12
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:11 UTC] POST request received
+[25-May-2025 04:32:11 UTC] Content-Length: 1048997
+[25-May-2025 04:32:11 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:11 UTC] Post max size: 8M
+2025-05-25 04:32:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 13
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:11 UTC] POST request received
+[25-May-2025 04:32:11 UTC] Content-Length: 1048997
+[25-May-2025 04:32:11 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:11 UTC] Post max size: 8M
+2025-05-25 04:32:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 14
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:12 UTC] POST request received
+[25-May-2025 04:32:12 UTC] Content-Length: 1048997
+[25-May-2025 04:32:12 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:12 UTC] Post max size: 8M
+2025-05-25 04:32:12 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 15
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:12 UTC] POST request received
+[25-May-2025 04:32:12 UTC] Content-Length: 1048997
+[25-May-2025 04:32:12 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:12 UTC] Post max size: 8M
+2025-05-25 04:32:12 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 16
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:12 UTC] POST request received
+[25-May-2025 04:32:12 UTC] Content-Length: 1048997
+[25-May-2025 04:32:12 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:12 UTC] Post max size: 8M
+2025-05-25 04:32:12 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 17
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:12 UTC] POST request received
+[25-May-2025 04:32:12 UTC] Content-Length: 1048997
+[25-May-2025 04:32:12 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:12 UTC] Post max size: 8M
+2025-05-25 04:32:13 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 18
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:13 UTC] POST request received
+[25-May-2025 04:32:13 UTC] Content-Length: 1048997
+[25-May-2025 04:32:13 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:13 UTC] Post max size: 8M
+2025-05-25 04:32:13 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 19
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:13 UTC] POST request received
+[25-May-2025 04:32:13 UTC] Content-Length: 1048997
+[25-May-2025 04:32:13 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:13 UTC] Post max size: 8M
+2025-05-25 04:32:13 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 20
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:13 UTC] POST request received
+[25-May-2025 04:32:13 UTC] Content-Length: 1048997
+[25-May-2025 04:32:13 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:13 UTC] Post max size: 8M
+2025-05-25 04:32:13 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 21
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:14 UTC] POST request received
+[25-May-2025 04:32:14 UTC] Content-Length: 1048997
+[25-May-2025 04:32:14 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:14 UTC] Post max size: 8M
+2025-05-25 04:32:14 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 22
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:14 UTC] POST request received
+[25-May-2025 04:32:14 UTC] Content-Length: 1048997
+[25-May-2025 04:32:14 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:14 UTC] Post max size: 8M
+2025-05-25 04:32:14 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 23
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:14 UTC] POST request received
+[25-May-2025 04:32:14 UTC] Content-Length: 1048997
+[25-May-2025 04:32:14 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:14 UTC] Post max size: 8M
+2025-05-25 04:32:14 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 24
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:32:14 UTC] POST request received
+[25-May-2025 04:32:14 UTC] Content-Length: 953592
+[25-May-2025 04:32:14 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:14 UTC] Post max size: 8M
+2025-05-25 04:32:14 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunk_index] => 25
+    [chunk_size] => 953171
+)
+
+[25-May-2025 04:32:15 UTC] POST request received
+[25-May-2025 04:32:15 UTC] Content-Length: 83
+[25-May-2025 04:32:15 UTC] Upload max filesize: 2M
+[25-May-2025 04:32:15 UTC] Post max size: 8M
+2025-05-25 04:32:15 - Starting file completion
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [chunks] => 26
+    [total_size] => 27167571
+)
+
+2025-05-25 04:32:15 - Upload completion failed
+Data: Array
+(
+    [upload_id] => nkJ5a4gtvVQ9z3XYwKuidHhrm6CZFMGN
+    [error] => SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'INSERT INTO'
+    [trace] => #0 C:\Users\jainv\Desktop\Custom_API\upload.php(232): PDOStatement->execute(Array)
+#1 {main}
+)
+
+[25-May-2025 04:33:58 UTC] POST request received
+[25-May-2025 04:33:58 UTC] Content-Length: 97
+[25-May-2025 04:33:58 UTC] Upload max filesize: 2M
+[25-May-2025 04:33:58 UTC] Post max size: 8M
+2025-05-25 04:33:58 - Upload initialized
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [data] => Array
+        (
+            [filename] => Rex_Noob.mp4
+            [size] => 27167571
+            [type] => video/mp4
+            [custom_name] => 
+            [password] => 1234
+        )
+
+)
+
+[25-May-2025 04:33:58 UTC] POST request received
+[25-May-2025 04:33:58 UTC] Content-Length: 1048996
+[25-May-2025 04:33:58 UTC] Upload max filesize: 2M
+[25-May-2025 04:33:58 UTC] Post max size: 8M
+2025-05-25 04:33:59 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 0
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:33:59 UTC] POST request received
+[25-May-2025 04:33:59 UTC] Content-Length: 1048996
+[25-May-2025 04:33:59 UTC] Upload max filesize: 2M
+[25-May-2025 04:33:59 UTC] Post max size: 8M
+2025-05-25 04:33:59 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 1
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:33:59 UTC] POST request received
+[25-May-2025 04:33:59 UTC] Content-Length: 1048996
+[25-May-2025 04:33:59 UTC] Upload max filesize: 2M
+[25-May-2025 04:33:59 UTC] Post max size: 8M
+2025-05-25 04:33:59 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 2
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:33:59 UTC] POST request received
+[25-May-2025 04:33:59 UTC] Content-Length: 1048996
+[25-May-2025 04:33:59 UTC] Upload max filesize: 2M
+[25-May-2025 04:33:59 UTC] Post max size: 8M
+2025-05-25 04:33:59 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 3
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:33:59 UTC] POST request received
+[25-May-2025 04:33:59 UTC] Content-Length: 1048996
+[25-May-2025 04:33:59 UTC] Upload max filesize: 2M
+[25-May-2025 04:33:59 UTC] Post max size: 8M
+2025-05-25 04:34:00 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 4
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:00 UTC] POST request received
+[25-May-2025 04:34:00 UTC] Content-Length: 1048996
+[25-May-2025 04:34:00 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:00 UTC] Post max size: 8M
+2025-05-25 04:34:00 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 5
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:00 UTC] POST request received
+[25-May-2025 04:34:00 UTC] Content-Length: 1048996
+[25-May-2025 04:34:00 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:00 UTC] Post max size: 8M
+2025-05-25 04:34:00 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 6
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:00 UTC] POST request received
+[25-May-2025 04:34:00 UTC] Content-Length: 1048996
+[25-May-2025 04:34:00 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:00 UTC] Post max size: 8M
+2025-05-25 04:34:00 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 7
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:01 UTC] POST request received
+[25-May-2025 04:34:01 UTC] Content-Length: 1048996
+[25-May-2025 04:34:01 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:01 UTC] Post max size: 8M
+2025-05-25 04:34:01 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 8
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:01 UTC] POST request received
+[25-May-2025 04:34:01 UTC] Content-Length: 1048996
+[25-May-2025 04:34:01 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:01 UTC] Post max size: 8M
+2025-05-25 04:34:01 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 9
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:01 UTC] POST request received
+[25-May-2025 04:34:01 UTC] Content-Length: 1048997
+[25-May-2025 04:34:01 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:01 UTC] Post max size: 8M
+2025-05-25 04:34:01 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 10
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:01 UTC] POST request received
+[25-May-2025 04:34:01 UTC] Content-Length: 1048997
+[25-May-2025 04:34:01 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:01 UTC] Post max size: 8M
+2025-05-25 04:34:01 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 11
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:02 UTC] POST request received
+[25-May-2025 04:34:02 UTC] Content-Length: 1048997
+[25-May-2025 04:34:02 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:02 UTC] Post max size: 8M
+2025-05-25 04:34:02 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 12
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:02 UTC] POST request received
+[25-May-2025 04:34:02 UTC] Content-Length: 1048997
+[25-May-2025 04:34:02 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:02 UTC] Post max size: 8M
+2025-05-25 04:34:02 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 13
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:02 UTC] POST request received
+[25-May-2025 04:34:02 UTC] Content-Length: 1048997
+[25-May-2025 04:34:02 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:02 UTC] Post max size: 8M
+2025-05-25 04:34:02 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 14
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:02 UTC] POST request received
+[25-May-2025 04:34:02 UTC] Content-Length: 1048997
+[25-May-2025 04:34:02 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:02 UTC] Post max size: 8M
+2025-05-25 04:34:02 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 15
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:03 UTC] POST request received
+[25-May-2025 04:34:03 UTC] Content-Length: 1048997
+[25-May-2025 04:34:03 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:03 UTC] Post max size: 8M
+2025-05-25 04:34:03 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 16
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:03 UTC] POST request received
+[25-May-2025 04:34:03 UTC] Content-Length: 1048997
+[25-May-2025 04:34:03 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:03 UTC] Post max size: 8M
+2025-05-25 04:34:03 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 17
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:03 UTC] POST request received
+[25-May-2025 04:34:03 UTC] Content-Length: 1048997
+[25-May-2025 04:34:03 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:03 UTC] Post max size: 8M
+2025-05-25 04:34:03 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 18
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:03 UTC] POST request received
+[25-May-2025 04:34:03 UTC] Content-Length: 1048997
+[25-May-2025 04:34:03 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:03 UTC] Post max size: 8M
+2025-05-25 04:34:04 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 19
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:04 UTC] POST request received
+[25-May-2025 04:34:04 UTC] Content-Length: 1048997
+[25-May-2025 04:34:04 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:04 UTC] Post max size: 8M
+2025-05-25 04:34:04 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 20
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:04 UTC] POST request received
+[25-May-2025 04:34:04 UTC] Content-Length: 1048997
+[25-May-2025 04:34:04 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:04 UTC] Post max size: 8M
+2025-05-25 04:34:04 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 21
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:04 UTC] POST request received
+[25-May-2025 04:34:04 UTC] Content-Length: 1048997
+[25-May-2025 04:34:04 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:04 UTC] Post max size: 8M
+2025-05-25 04:34:04 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 22
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:04 UTC] POST request received
+[25-May-2025 04:34:04 UTC] Content-Length: 1048997
+[25-May-2025 04:34:04 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:04 UTC] Post max size: 8M
+2025-05-25 04:34:05 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 23
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:05 UTC] POST request received
+[25-May-2025 04:34:05 UTC] Content-Length: 1048997
+[25-May-2025 04:34:05 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:05 UTC] Post max size: 8M
+2025-05-25 04:34:05 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 24
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 04:34:05 UTC] POST request received
+[25-May-2025 04:34:05 UTC] Content-Length: 953592
+[25-May-2025 04:34:05 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:05 UTC] Post max size: 8M
+2025-05-25 04:34:05 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunk_index] => 25
+    [chunk_size] => 953171
+)
+
+[25-May-2025 04:34:05 UTC] POST request received
+[25-May-2025 04:34:05 UTC] Content-Length: 83
+[25-May-2025 04:34:05 UTC] Upload max filesize: 2M
+[25-May-2025 04:34:05 UTC] Post max size: 8M
+2025-05-25 04:34:05 - Starting file completion
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [chunks] => 26
+    [total_size] => 27167571
+)
+
+2025-05-25 04:34:05 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => d8oYPsRxL6tSOVhzjTNvA3egZbpcG9FJ
+    [final_path] => C:\Users\jainv\Desktop\Custom_API/upload/KMVXWCwIUskZ.mp4
+    [file_size] => 27167571
+)
+
+[25-May-2025 05:12:07 UTC] POST request received
+[25-May-2025 05:12:07 UTC] Content-Length: 62
+[25-May-2025 05:12:07 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:07 UTC] Post max size: 8M
+2025-05-25 05:12:07 - Upload initialized
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [data] => Array
+        (
+            [filename] => Rex_Noob.mp4
+            [size] => 27167571
+            [type] => video/mp4
+        )
+
+)
+
+[25-May-2025 05:12:07 UTC] POST request received
+[25-May-2025 05:12:07 UTC] Content-Length: 1048996
+[25-May-2025 05:12:07 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:07 UTC] Post max size: 8M
+2025-05-25 05:12:07 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 0
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:07 UTC] POST request received
+[25-May-2025 05:12:07 UTC] Content-Length: 1048996
+[25-May-2025 05:12:07 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:07 UTC] Post max size: 8M
+2025-05-25 05:12:07 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 1
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:08 UTC] POST request received
+[25-May-2025 05:12:08 UTC] Content-Length: 1048996
+[25-May-2025 05:12:08 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:08 UTC] Post max size: 8M
+2025-05-25 05:12:08 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 2
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:08 UTC] POST request received
+[25-May-2025 05:12:08 UTC] Content-Length: 1048996
+[25-May-2025 05:12:08 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:08 UTC] Post max size: 8M
+2025-05-25 05:12:08 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 3
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:08 UTC] POST request received
+[25-May-2025 05:12:08 UTC] Content-Length: 1048996
+[25-May-2025 05:12:08 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:08 UTC] Post max size: 8M
+2025-05-25 05:12:08 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 4
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:08 UTC] POST request received
+[25-May-2025 05:12:08 UTC] Content-Length: 1048996
+[25-May-2025 05:12:08 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:08 UTC] Post max size: 8M
+2025-05-25 05:12:08 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 5
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:09 UTC] POST request received
+[25-May-2025 05:12:09 UTC] Content-Length: 1048996
+[25-May-2025 05:12:09 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:09 UTC] Post max size: 8M
+2025-05-25 05:12:09 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 6
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:09 UTC] POST request received
+[25-May-2025 05:12:09 UTC] Content-Length: 1048996
+[25-May-2025 05:12:09 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:09 UTC] Post max size: 8M
+2025-05-25 05:12:09 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 7
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:09 UTC] POST request received
+[25-May-2025 05:12:09 UTC] Content-Length: 1048996
+[25-May-2025 05:12:09 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:09 UTC] Post max size: 8M
+2025-05-25 05:12:09 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 8
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:09 UTC] POST request received
+[25-May-2025 05:12:09 UTC] Content-Length: 1048996
+[25-May-2025 05:12:09 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:09 UTC] Post max size: 8M
+2025-05-25 05:12:09 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 9
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:10 UTC] POST request received
+[25-May-2025 05:12:10 UTC] Content-Length: 1048997
+[25-May-2025 05:12:10 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:10 UTC] Post max size: 8M
+2025-05-25 05:12:10 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 10
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:10 UTC] POST request received
+[25-May-2025 05:12:10 UTC] Content-Length: 1048997
+[25-May-2025 05:12:10 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:10 UTC] Post max size: 8M
+2025-05-25 05:12:10 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 11
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:10 UTC] POST request received
+[25-May-2025 05:12:10 UTC] Content-Length: 1048997
+[25-May-2025 05:12:10 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:10 UTC] Post max size: 8M
+2025-05-25 05:12:10 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 12
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:10 UTC] POST request received
+[25-May-2025 05:12:10 UTC] Content-Length: 1048997
+[25-May-2025 05:12:10 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:10 UTC] Post max size: 8M
+2025-05-25 05:12:10 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 13
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:11 UTC] POST request received
+[25-May-2025 05:12:11 UTC] Content-Length: 1048997
+[25-May-2025 05:12:11 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:11 UTC] Post max size: 8M
+2025-05-25 05:12:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 14
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:11 UTC] POST request received
+[25-May-2025 05:12:11 UTC] Content-Length: 1048997
+[25-May-2025 05:12:11 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:11 UTC] Post max size: 8M
+2025-05-25 05:12:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 15
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:11 UTC] POST request received
+[25-May-2025 05:12:11 UTC] Content-Length: 1048997
+[25-May-2025 05:12:11 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:11 UTC] Post max size: 8M
+2025-05-25 05:12:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 16
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:11 UTC] POST request received
+[25-May-2025 05:12:11 UTC] Content-Length: 1048997
+[25-May-2025 05:12:11 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:11 UTC] Post max size: 8M
+2025-05-25 05:12:11 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 17
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:12 UTC] POST request received
+[25-May-2025 05:12:12 UTC] Content-Length: 1048997
+[25-May-2025 05:12:12 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:12 UTC] Post max size: 8M
+2025-05-25 05:12:12 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 18
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:12 UTC] POST request received
+[25-May-2025 05:12:12 UTC] Content-Length: 1048997
+[25-May-2025 05:12:12 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:12 UTC] Post max size: 8M
+2025-05-25 05:12:12 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 19
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:12 UTC] POST request received
+[25-May-2025 05:12:12 UTC] Content-Length: 1048997
+[25-May-2025 05:12:12 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:12 UTC] Post max size: 8M
+2025-05-25 05:12:12 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 20
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:12 UTC] POST request received
+[25-May-2025 05:12:12 UTC] Content-Length: 1048997
+[25-May-2025 05:12:12 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:12 UTC] Post max size: 8M
+2025-05-25 05:12:13 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 21
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:13 UTC] POST request received
+[25-May-2025 05:12:13 UTC] Content-Length: 1048997
+[25-May-2025 05:12:13 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:13 UTC] Post max size: 8M
+2025-05-25 05:12:13 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 22
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:13 UTC] POST request received
+[25-May-2025 05:12:13 UTC] Content-Length: 1048997
+[25-May-2025 05:12:13 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:13 UTC] Post max size: 8M
+2025-05-25 05:12:13 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 23
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:13 UTC] POST request received
+[25-May-2025 05:12:13 UTC] Content-Length: 1048997
+[25-May-2025 05:12:13 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:13 UTC] Post max size: 8M
+2025-05-25 05:12:13 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 24
+    [chunk_size] => 1048576
+)
+
+[25-May-2025 05:12:13 UTC] POST request received
+[25-May-2025 05:12:13 UTC] Content-Length: 953592
+[25-May-2025 05:12:13 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:13 UTC] Post max size: 8M
+2025-05-25 05:12:14 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunk_index] => 25
+    [chunk_size] => 953171
+)
+
+[25-May-2025 05:12:14 UTC] POST request received
+[25-May-2025 05:12:14 UTC] Content-Length: 48
+[25-May-2025 05:12:14 UTC] Upload max filesize: 2M
+[25-May-2025 05:12:14 UTC] Post max size: 8M
+2025-05-25 05:12:14 - Starting file completion
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [chunks] => 26
+    [total_size] => 27167571
+)
+
+2025-05-25 05:12:14 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => 4sjKviWYAXxVU8tfuJLNPo1Fbr6ghqwO
+    [final_path] => C:\Users\jainv\Desktop\asd\media.ezzalex.tech/upload/OwzBtW9UIhK4.mp4
+    [file_size] => 27167571
+)
+
+[02-Jun-2025 12:20:03 UTC] POST request received
+[02-Jun-2025 12:20:03 UTC] Content-Length: 76
+[02-Jun-2025 12:20:03 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:03 UTC] Post max size: 8M
+2025-06-02 12:20:03 - Upload initialized
+Data: Array
+(
+    [upload_id] => M47AjzRva0eQBpgLWqbfYoJhx3T5P162
+    [data] => Array
+        (
+            [filename] => Camera flash sound effect.mp4
+            [size] => 61238
+            [type] => video/mp4
+        )
+
+)
+
+[02-Jun-2025 12:20:03 UTC] POST request received
+[02-Jun-2025 12:20:03 UTC] Content-Length: 61658
+[02-Jun-2025 12:20:03 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:03 UTC] Post max size: 8M
+2025-06-02 12:20:03 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => M47AjzRva0eQBpgLWqbfYoJhx3T5P162
+    [chunk_index] => 0
+    [chunk_size] => 61238
+)
+
+[02-Jun-2025 12:20:03 UTC] POST request received
+[02-Jun-2025 12:20:03 UTC] Content-Length: 48
+[02-Jun-2025 12:20:03 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:03 UTC] Post max size: 8M
+2025-06-02 12:20:04 - Starting file completion
+Data: Array
+(
+    [upload_id] => M47AjzRva0eQBpgLWqbfYoJhx3T5P162
+    [chunks] => 1
+    [total_size] => 61238
+)
+
+2025-06-02 12:20:04 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => M47AjzRva0eQBpgLWqbfYoJhx3T5P162
+    [final_path] => C:\Users\PIYUSHJAIN\Desktop\media.ezzalex.tech/upload/DewjO845AqPk.mp4
+    [file_size] => 61238
+)
+
+[02-Jun-2025 12:20:23 UTC] POST request received
+[02-Jun-2025 12:20:23 UTC] Content-Length: 91
+[02-Jun-2025 12:20:23 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:23 UTC] Post max size: 8M
+2025-06-02 12:20:24 - Upload initialized
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [data] => Array
+        (
+            [filename] => FiveM® by Cfx.re 2025-03-15 17-13-41.mp4
+            [size] => 38255877
+            [type] => video/mp4
+        )
+
+)
+
+[02-Jun-2025 12:20:24 UTC] POST request received
+[02-Jun-2025 12:20:24 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:24 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:24 UTC] Post max size: 8M
+2025-06-02 12:20:24 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 0
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:24 UTC] POST request received
+[02-Jun-2025 12:20:24 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:24 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:24 UTC] Post max size: 8M
+2025-06-02 12:20:24 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 1
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:24 UTC] POST request received
+[02-Jun-2025 12:20:24 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:24 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:24 UTC] Post max size: 8M
+2025-06-02 12:20:24 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 2
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:24 UTC] POST request received
+[02-Jun-2025 12:20:24 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:24 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:24 UTC] Post max size: 8M
+2025-06-02 12:20:25 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 3
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:25 UTC] POST request received
+[02-Jun-2025 12:20:25 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:25 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:25 UTC] Post max size: 8M
+2025-06-02 12:20:25 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 4
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:25 UTC] POST request received
+[02-Jun-2025 12:20:25 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:25 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:25 UTC] Post max size: 8M
+2025-06-02 12:20:25 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 5
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:25 UTC] POST request received
+[02-Jun-2025 12:20:25 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:25 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:25 UTC] Post max size: 8M
+2025-06-02 12:20:25 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 6
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:25 UTC] POST request received
+[02-Jun-2025 12:20:25 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:25 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:25 UTC] Post max size: 8M
+2025-06-02 12:20:25 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 7
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:26 UTC] POST request received
+[02-Jun-2025 12:20:26 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:26 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:26 UTC] Post max size: 8M
+2025-06-02 12:20:26 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 8
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:26 UTC] POST request received
+[02-Jun-2025 12:20:26 UTC] Content-Length: 1048996
+[02-Jun-2025 12:20:26 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:26 UTC] Post max size: 8M
+2025-06-02 12:20:26 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 9
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:26 UTC] POST request received
+[02-Jun-2025 12:20:26 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:26 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:26 UTC] Post max size: 8M
+2025-06-02 12:20:26 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 10
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:26 UTC] POST request received
+[02-Jun-2025 12:20:26 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:26 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:26 UTC] Post max size: 8M
+2025-06-02 12:20:27 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 11
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:27 UTC] POST request received
+[02-Jun-2025 12:20:27 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:27 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:27 UTC] Post max size: 8M
+2025-06-02 12:20:27 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 12
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:27 UTC] POST request received
+[02-Jun-2025 12:20:27 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:27 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:27 UTC] Post max size: 8M
+2025-06-02 12:20:27 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 13
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:27 UTC] POST request received
+[02-Jun-2025 12:20:27 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:27 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:27 UTC] Post max size: 8M
+2025-06-02 12:20:27 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 14
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:28 UTC] POST request received
+[02-Jun-2025 12:20:28 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:28 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:28 UTC] Post max size: 8M
+2025-06-02 12:20:28 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 15
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:28 UTC] POST request received
+[02-Jun-2025 12:20:28 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:28 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:28 UTC] Post max size: 8M
+2025-06-02 12:20:28 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 16
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:28 UTC] POST request received
+[02-Jun-2025 12:20:28 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:28 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:28 UTC] Post max size: 8M
+2025-06-02 12:20:28 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 17
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:28 UTC] POST request received
+[02-Jun-2025 12:20:28 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:28 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:28 UTC] Post max size: 8M
+2025-06-02 12:20:28 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 18
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:29 UTC] POST request received
+[02-Jun-2025 12:20:29 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:29 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:29 UTC] Post max size: 8M
+2025-06-02 12:20:29 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 19
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:29 UTC] POST request received
+[02-Jun-2025 12:20:29 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:29 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:29 UTC] Post max size: 8M
+2025-06-02 12:20:29 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 20
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:29 UTC] POST request received
+[02-Jun-2025 12:20:29 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:29 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:29 UTC] Post max size: 8M
+2025-06-02 12:20:29 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 21
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:29 UTC] POST request received
+[02-Jun-2025 12:20:29 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:29 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:29 UTC] Post max size: 8M
+2025-06-02 12:20:29 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 22
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:30 UTC] POST request received
+[02-Jun-2025 12:20:30 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:30 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:30 UTC] Post max size: 8M
+2025-06-02 12:20:30 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 23
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:30 UTC] POST request received
+[02-Jun-2025 12:20:30 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:30 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:30 UTC] Post max size: 8M
+2025-06-02 12:20:30 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 24
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:30 UTC] POST request received
+[02-Jun-2025 12:20:30 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:30 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:30 UTC] Post max size: 8M
+2025-06-02 12:20:30 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 25
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:30 UTC] POST request received
+[02-Jun-2025 12:20:30 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:30 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:30 UTC] Post max size: 8M
+2025-06-02 12:20:30 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 26
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:31 UTC] POST request received
+[02-Jun-2025 12:20:31 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:31 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:31 UTC] Post max size: 8M
+2025-06-02 12:20:31 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 27
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:31 UTC] POST request received
+[02-Jun-2025 12:20:31 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:31 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:31 UTC] Post max size: 8M
+2025-06-02 12:20:31 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 28
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:31 UTC] POST request received
+[02-Jun-2025 12:20:31 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:31 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:31 UTC] Post max size: 8M
+2025-06-02 12:20:31 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 29
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:31 UTC] POST request received
+[02-Jun-2025 12:20:31 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:31 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:31 UTC] Post max size: 8M
+2025-06-02 12:20:31 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 30
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:32 UTC] POST request received
+[02-Jun-2025 12:20:32 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:32 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:32 UTC] Post max size: 8M
+2025-06-02 12:20:32 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 31
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:32 UTC] POST request received
+[02-Jun-2025 12:20:32 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:32 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:32 UTC] Post max size: 8M
+2025-06-02 12:20:32 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 32
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:32 UTC] POST request received
+[02-Jun-2025 12:20:32 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:32 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:32 UTC] Post max size: 8M
+2025-06-02 12:20:32 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 33
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:33 UTC] POST request received
+[02-Jun-2025 12:20:33 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:33 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:33 UTC] Post max size: 8M
+2025-06-02 12:20:33 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 34
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:33 UTC] POST request received
+[02-Jun-2025 12:20:33 UTC] Content-Length: 1048997
+[02-Jun-2025 12:20:33 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:33 UTC] Post max size: 8M
+2025-06-02 12:20:33 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 35
+    [chunk_size] => 1048576
+)
+
+[02-Jun-2025 12:20:33 UTC] POST request received
+[02-Jun-2025 12:20:33 UTC] Content-Length: 507562
+[02-Jun-2025 12:20:33 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:33 UTC] Post max size: 8M
+2025-06-02 12:20:33 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunk_index] => 36
+    [chunk_size] => 507141
+)
+
+[02-Jun-2025 12:20:33 UTC] POST request received
+[02-Jun-2025 12:20:33 UTC] Content-Length: 48
+[02-Jun-2025 12:20:33 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:20:33 UTC] Post max size: 8M
+2025-06-02 12:20:33 - Starting file completion
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [chunks] => 37
+    [total_size] => 38255877
+)
+
+2025-06-02 12:20:33 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => YQxyk0UlBnEu4JiTGA8aWbm21VpLPewz
+    [final_path] => C:\Users\PIYUSHJAIN\Desktop\media.ezzalex.tech/upload/IYGmy8Fg73kD.mp4
+    [file_size] => 38255877
+)
+
+[02-Jun-2025 12:28:43 UTC] POST request received
+[02-Jun-2025 12:28:43 UTC] Content-Length: 76
+[02-Jun-2025 12:28:43 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:28:43 UTC] Post max size: 8M
+2025-06-02 12:28:44 - Upload initialized
+Data: Array
+(
+    [upload_id] => ZFbqsY9VdwRpOSfltcE6kCQLzXT0PygD
+    [data] => Array
+        (
+            [filename] => Camera flash sound effect.mp4
+            [size] => 61238
+            [type] => video/mp4
+        )
+
+)
+
+[02-Jun-2025 12:28:44 UTC] POST request received
+[02-Jun-2025 12:28:44 UTC] Content-Length: 61658
+[02-Jun-2025 12:28:44 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:28:44 UTC] Post max size: 8M
+2025-06-02 12:28:44 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => ZFbqsY9VdwRpOSfltcE6kCQLzXT0PygD
+    [chunk_index] => 0
+    [chunk_size] => 61238
+)
+
+[02-Jun-2025 12:28:44 UTC] POST request received
+[02-Jun-2025 12:28:44 UTC] Content-Length: 48
+[02-Jun-2025 12:28:44 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:28:44 UTC] Post max size: 8M
+2025-06-02 12:28:44 - Starting file completion
+Data: Array
+(
+    [upload_id] => ZFbqsY9VdwRpOSfltcE6kCQLzXT0PygD
+    [chunks] => 1
+    [total_size] => 61238
+)
+
+2025-06-02 12:28:44 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => ZFbqsY9VdwRpOSfltcE6kCQLzXT0PygD
+    [final_path] => C:\Users\PIYUSHJAIN\Desktop\media.ezzalex.tech/upload/qUS7EnBayM29.mp4
+    [file_size] => 61238
+)
+
+[02-Jun-2025 12:28:57 UTC] POST request received
+[02-Jun-2025 12:28:57 UTC] Content-Length: 76
+[02-Jun-2025 12:28:57 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:28:57 UTC] Post max size: 8M
+2025-06-02 12:28:57 - Upload initialized
+Data: Array
+(
+    [upload_id] => q69px0GY8eaPZmBvirJOokj4yTWLhzNs
+    [data] => Array
+        (
+            [filename] => Camera flash sound effect.mp4
+            [size] => 61238
+            [type] => video/mp4
+        )
+
+)
+
+[02-Jun-2025 12:28:57 UTC] POST request received
+[02-Jun-2025 12:28:57 UTC] Content-Length: 61658
+[02-Jun-2025 12:28:57 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:28:57 UTC] Post max size: 8M
+2025-06-02 12:28:57 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => q69px0GY8eaPZmBvirJOokj4yTWLhzNs
+    [chunk_index] => 0
+    [chunk_size] => 61238
+)
+
+[02-Jun-2025 12:28:57 UTC] POST request received
+[02-Jun-2025 12:28:57 UTC] Content-Length: 48
+[02-Jun-2025 12:28:57 UTC] Upload max filesize: 2M
+[02-Jun-2025 12:28:57 UTC] Post max size: 8M
+2025-06-02 12:28:57 - Starting file completion
+Data: Array
+(
+    [upload_id] => q69px0GY8eaPZmBvirJOokj4yTWLhzNs
+    [chunks] => 1
+    [total_size] => 61238
+)
+
+2025-06-02 12:28:57 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => q69px0GY8eaPZmBvirJOokj4yTWLhzNs
+    [final_path] => C:\Users\PIYUSHJAIN\Desktop\media.ezzalex.tech/upload/xvpytGYEr8mg.mp4
+    [file_size] => 61238
+)
+
+[15-Jun-2025 09:35:35 UTC] POST request received
+[15-Jun-2025 09:35:35 UTC] Content-Length: 64
+[15-Jun-2025 09:35:35 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:35 UTC] Post max size: 8M
+2025-06-15 09:35:35 - Upload initialized
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [data] => Array
+        (
+            [filename] => Sushi_Open.mp4
+            [size] => 15711725
+            [type] => video/mp4
+        )
+
+)
+
+[15-Jun-2025 09:35:35 UTC] POST request received
+[15-Jun-2025 09:35:35 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:35 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:35 UTC] Post max size: 8M
+2025-06-15 09:35:35 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 0
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:36 UTC] POST request received
+[15-Jun-2025 09:35:36 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:36 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:36 UTC] Post max size: 8M
+2025-06-15 09:35:36 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 1
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:36 UTC] POST request received
+[15-Jun-2025 09:35:36 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:36 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:36 UTC] Post max size: 8M
+2025-06-15 09:35:36 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 2
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:36 UTC] POST request received
+[15-Jun-2025 09:35:36 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:36 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:36 UTC] Post max size: 8M
+2025-06-15 09:35:36 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 3
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:37 UTC] POST request received
+[15-Jun-2025 09:35:37 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:37 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:37 UTC] Post max size: 8M
+2025-06-15 09:35:37 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 4
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:37 UTC] POST request received
+[15-Jun-2025 09:35:37 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:37 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:37 UTC] Post max size: 8M
+2025-06-15 09:35:37 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 5
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:37 UTC] POST request received
+[15-Jun-2025 09:35:37 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:37 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:37 UTC] Post max size: 8M
+2025-06-15 09:35:37 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 6
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:38 UTC] POST request received
+[15-Jun-2025 09:35:38 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:38 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:38 UTC] Post max size: 8M
+2025-06-15 09:35:38 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 7
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:38 UTC] POST request received
+[15-Jun-2025 09:35:38 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:38 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:38 UTC] Post max size: 8M
+2025-06-15 09:35:38 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 8
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:38 UTC] POST request received
+[15-Jun-2025 09:35:38 UTC] Content-Length: 1048996
+[15-Jun-2025 09:35:38 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:38 UTC] Post max size: 8M
+2025-06-15 09:35:38 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 9
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:39 UTC] POST request received
+[15-Jun-2025 09:35:39 UTC] Content-Length: 1048997
+[15-Jun-2025 09:35:39 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:39 UTC] Post max size: 8M
+2025-06-15 09:35:39 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 10
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:39 UTC] POST request received
+[15-Jun-2025 09:35:39 UTC] Content-Length: 1048997
+[15-Jun-2025 09:35:39 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:39 UTC] Post max size: 8M
+2025-06-15 09:35:39 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 11
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:39 UTC] POST request received
+[15-Jun-2025 09:35:39 UTC] Content-Length: 1048997
+[15-Jun-2025 09:35:39 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:39 UTC] Post max size: 8M
+2025-06-15 09:35:39 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 12
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:39 UTC] POST request received
+[15-Jun-2025 09:35:39 UTC] Content-Length: 1048997
+[15-Jun-2025 09:35:39 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:39 UTC] Post max size: 8M
+2025-06-15 09:35:39 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 13
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:35:40 UTC] POST request received
+[15-Jun-2025 09:35:40 UTC] Content-Length: 1032082
+[15-Jun-2025 09:35:40 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:40 UTC] Post max size: 8M
+2025-06-15 09:35:40 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunk_index] => 14
+    [chunk_size] => 1031661
+)
+
+[15-Jun-2025 09:35:40 UTC] POST request received
+[15-Jun-2025 09:35:40 UTC] Content-Length: 48
+[15-Jun-2025 09:35:40 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:35:40 UTC] Post max size: 8M
+2025-06-15 09:35:40 - Starting file completion
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [chunks] => 15
+    [total_size] => 15711725
+)
+
+2025-06-15 09:35:40 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => lGjNX1mCvIOBY56oPHktLFJnQs7bA4Sz
+    [final_path] => E:\Developing\media.ezzalex.tech/upload/KmzBuT20FvLO.mp4
+    [file_size] => 15711725
+)
+
+[15-Jun-2025 09:40:53 UTC] POST request received
+[15-Jun-2025 09:40:53 UTC] Content-Length: 64
+[15-Jun-2025 09:40:53 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:53 UTC] Post max size: 8M
+2025-06-15 09:40:53 - Upload initialized
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [data] => Array
+        (
+            [filename] => Sushi_Open.mp4
+            [size] => 15711725
+            [type] => video/mp4
+        )
+
+)
+
+[15-Jun-2025 09:40:53 UTC] POST request received
+[15-Jun-2025 09:40:53 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:53 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:53 UTC] Post max size: 8M
+2025-06-15 09:40:53 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 0
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:54 UTC] POST request received
+[15-Jun-2025 09:40:54 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:54 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:54 UTC] Post max size: 8M
+2025-06-15 09:40:54 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 1
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:54 UTC] POST request received
+[15-Jun-2025 09:40:54 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:54 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:54 UTC] Post max size: 8M
+2025-06-15 09:40:54 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 2
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:54 UTC] POST request received
+[15-Jun-2025 09:40:54 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:54 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:54 UTC] Post max size: 8M
+2025-06-15 09:40:55 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 3
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:55 UTC] POST request received
+[15-Jun-2025 09:40:55 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:55 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:55 UTC] Post max size: 8M
+2025-06-15 09:40:55 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 4
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:55 UTC] POST request received
+[15-Jun-2025 09:40:55 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:55 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:55 UTC] Post max size: 8M
+2025-06-15 09:40:55 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 5
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:55 UTC] POST request received
+[15-Jun-2025 09:40:55 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:55 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:55 UTC] Post max size: 8M
+2025-06-15 09:40:55 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 6
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:56 UTC] POST request received
+[15-Jun-2025 09:40:56 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:56 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:56 UTC] Post max size: 8M
+2025-06-15 09:40:56 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 7
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:56 UTC] POST request received
+[15-Jun-2025 09:40:56 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:56 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:56 UTC] Post max size: 8M
+2025-06-15 09:40:56 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 8
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:56 UTC] POST request received
+[15-Jun-2025 09:40:56 UTC] Content-Length: 1048996
+[15-Jun-2025 09:40:56 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:56 UTC] Post max size: 8M
+2025-06-15 09:40:56 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 9
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:57 UTC] POST request received
+[15-Jun-2025 09:40:57 UTC] Content-Length: 1048997
+[15-Jun-2025 09:40:57 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:57 UTC] Post max size: 8M
+2025-06-15 09:40:57 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 10
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:57 UTC] POST request received
+[15-Jun-2025 09:40:57 UTC] Content-Length: 1048997
+[15-Jun-2025 09:40:57 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:57 UTC] Post max size: 8M
+2025-06-15 09:40:57 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 11
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:57 UTC] POST request received
+[15-Jun-2025 09:40:57 UTC] Content-Length: 1048997
+[15-Jun-2025 09:40:57 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:57 UTC] Post max size: 8M
+2025-06-15 09:40:57 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 12
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:58 UTC] POST request received
+[15-Jun-2025 09:40:58 UTC] Content-Length: 1048997
+[15-Jun-2025 09:40:58 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:58 UTC] Post max size: 8M
+2025-06-15 09:40:58 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 13
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:40:58 UTC] POST request received
+[15-Jun-2025 09:40:58 UTC] Content-Length: 1032082
+[15-Jun-2025 09:40:58 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:58 UTC] Post max size: 8M
+2025-06-15 09:40:58 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunk_index] => 14
+    [chunk_size] => 1031661
+)
+
+[15-Jun-2025 09:40:58 UTC] POST request received
+[15-Jun-2025 09:40:58 UTC] Content-Length: 48
+[15-Jun-2025 09:40:58 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:40:58 UTC] Post max size: 8M
+2025-06-15 09:40:58 - Starting file completion
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [chunks] => 15
+    [total_size] => 15711725
+)
+
+2025-06-15 09:40:58 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => t3neICg5sT4r2k8cMX1pSBKF6VmQWNiz
+    [final_path] => E:\Developing\media.ezzalex.tech/upload/r0T1K6sLUInM.mp4
+    [file_size] => 15711725
+)
+
+[15-Jun-2025 09:48:18 UTC] POST request received
+[15-Jun-2025 09:48:18 UTC] Content-Length: 66
+[15-Jun-2025 09:48:18 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:18 UTC] Post max size: 8M
+2025-06-15 09:48:18 - Upload initialized
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [data] => Array
+        (
+            [filename] => Sushi_open_1.mp4
+            [size] => 16408344
+            [type] => video/mp4
+        )
+
+)
+
+[15-Jun-2025 09:48:18 UTC] POST request received
+[15-Jun-2025 09:48:18 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:18 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:18 UTC] Post max size: 8M
+2025-06-15 09:48:19 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 0
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:19 UTC] POST request received
+[15-Jun-2025 09:48:19 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:19 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:19 UTC] Post max size: 8M
+2025-06-15 09:48:19 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 1
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:19 UTC] POST request received
+[15-Jun-2025 09:48:19 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:19 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:19 UTC] Post max size: 8M
+2025-06-15 09:48:19 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 2
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:19 UTC] POST request received
+[15-Jun-2025 09:48:19 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:19 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:19 UTC] Post max size: 8M
+2025-06-15 09:48:19 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 3
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:20 UTC] POST request received
+[15-Jun-2025 09:48:20 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:20 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:20 UTC] Post max size: 8M
+2025-06-15 09:48:20 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 4
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:20 UTC] POST request received
+[15-Jun-2025 09:48:20 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:20 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:20 UTC] Post max size: 8M
+2025-06-15 09:48:20 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 5
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:20 UTC] POST request received
+[15-Jun-2025 09:48:20 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:20 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:20 UTC] Post max size: 8M
+2025-06-15 09:48:21 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 6
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:21 UTC] POST request received
+[15-Jun-2025 09:48:21 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:21 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:21 UTC] Post max size: 8M
+2025-06-15 09:48:21 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 7
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:22 UTC] POST request received
+[15-Jun-2025 09:48:22 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:22 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:22 UTC] Post max size: 8M
+2025-06-15 09:48:22 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 8
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:22 UTC] POST request received
+[15-Jun-2025 09:48:22 UTC] Content-Length: 1048996
+[15-Jun-2025 09:48:22 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:22 UTC] Post max size: 8M
+2025-06-15 09:48:22 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 9
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:23 UTC] POST request received
+[15-Jun-2025 09:48:23 UTC] Content-Length: 1048997
+[15-Jun-2025 09:48:23 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:23 UTC] Post max size: 8M
+2025-06-15 09:48:23 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 10
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:23 UTC] POST request received
+[15-Jun-2025 09:48:23 UTC] Content-Length: 1048997
+[15-Jun-2025 09:48:23 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:23 UTC] Post max size: 8M
+2025-06-15 09:48:23 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 11
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:23 UTC] POST request received
+[15-Jun-2025 09:48:23 UTC] Content-Length: 1048997
+[15-Jun-2025 09:48:23 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:23 UTC] Post max size: 8M
+2025-06-15 09:48:23 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 12
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:24 UTC] POST request received
+[15-Jun-2025 09:48:24 UTC] Content-Length: 1048997
+[15-Jun-2025 09:48:24 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:24 UTC] Post max size: 8M
+2025-06-15 09:48:24 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 13
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:24 UTC] POST request received
+[15-Jun-2025 09:48:24 UTC] Content-Length: 1048997
+[15-Jun-2025 09:48:24 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:24 UTC] Post max size: 8M
+2025-06-15 09:48:24 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 14
+    [chunk_size] => 1048576
+)
+
+[15-Jun-2025 09:48:27 UTC] POST request received
+[15-Jun-2025 09:48:27 UTC] Content-Length: 680125
+[15-Jun-2025 09:48:27 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:27 UTC] Post max size: 8M
+2025-06-15 09:48:27 - Chunk uploaded
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunk_index] => 15
+    [chunk_size] => 679704
+)
+
+[15-Jun-2025 09:48:28 UTC] POST request received
+[15-Jun-2025 09:48:28 UTC] Content-Length: 48
+[15-Jun-2025 09:48:28 UTC] Upload max filesize: 2M
+[15-Jun-2025 09:48:28 UTC] Post max size: 8M
+2025-06-15 09:48:28 - Starting file completion
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [chunks] => 16
+    [total_size] => 16408344
+)
+
+2025-06-15 09:48:28 - Upload completed successfully
+Data: Array
+(
+    [upload_id] => vhrHCVXDoMcu43LFEemwU6qGKpazBx0n
+    [final_path] => E:\Developing\media.ezzalex.tech/upload/gcRqOVJk4D7x.mp4
+    [file_size] => 16408344
+)
+

@@ -17,12 +17,7 @@ $isDiscordBot = isset($_SERVER['HTTP_USER_AGENT']) &&
 
 try {
     // Get file information
-    $stmt = $pdo->prepare("
-        SELECT f.*, fd.file_data 
-        FROM files f 
-        JOIN file_data fd ON f.id = fd.file_id 
-        WHERE f.filename = ?
-    ");
+    $stmt = $pdo->prepare("SELECT * FROM files WHERE filename = ?");
     $stmt->execute([$filename]);
     $file = $stmt->fetch();
 
@@ -37,6 +32,13 @@ try {
         $stmt->execute([$file['id']]);
     }
 
+    // Get file path
+    $filePath = __DIR__ . '/upload/' . $filename;
+    if (!file_exists($filePath)) {
+        header('HTTP/1.0 404 Not Found');
+        exit('File not found');
+    }
+
     // If Discord bot is requesting, return embed information
     if ($isDiscordBot) {
         $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
@@ -49,8 +51,8 @@ try {
         if ($isImage) {
             // For images, we need to serve the actual image to Discord
             header('Content-Type: ' . $file['file_type']);
-            header('Content-Length: ' . strlen($file['file_data']));
-            echo $file['file_data'];
+            header('Content-Length: ' . filesize($filePath));
+            readfile($filePath);
             exit();
         } else {
             // For non-image files, return JSON with embed information
@@ -72,11 +74,11 @@ try {
 
     // Normal file serving for regular requests
     header('Content-Type: ' . $file['file_type']);
-    header('Content-Length: ' . strlen($file['file_data']));
+    header('Content-Length: ' . filesize($filePath));
     header('Content-Disposition: inline; filename="' . htmlspecialchars($file['original_filename']) . '"');
     
     // Output the file data
-    echo $file['file_data'];
+    readfile($filePath);
 
 } catch (PDOException $e) {
     error_log('Database error in view.php: ' . $e->getMessage());

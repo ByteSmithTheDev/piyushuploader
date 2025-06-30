@@ -57,22 +57,97 @@ foreach ($files as $file) {
             background-color: #4299e1;
             width: <?= min(($total_size / (1024 * 1024 * 1024 * 2)) * 100, 100) ?>%;
         }
+        .file-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            padding: 1rem;
+        }
+        .file-card {
+            background-color: #2d3748;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .file-card:hover {
+            transform: translateY(-2px);
+        }
+        .file-preview {
+            width: 100%;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            background-color: #1a202c;
+        }
+        .file-info {
+            padding: 0.75rem;
+        }
+        .file-name {
+            font-size: 0.875rem;
+            color: #e2e8f0;
+            margin-bottom: 0.25rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .file-meta {
+            font-size: 0.75rem;
+            color: #a0aec0;
+        }
+        .file-actions {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem;
+            background-color: #1a202c;
+        }
+        .file-icon {
+            width: 100%;
+            aspect-ratio: 16/9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #1a202c;
+            color: #4299e1;
+            font-size: 2rem;
+        }
+        @media (max-width: 1280px) {
+            .file-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 1024px) {
+            .file-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 640px) {
+            .file-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body class="bg-gray-900 text-gray-100 min-h-screen">
-
     <main class="container mx-auto px-4 py-8">
         <div class="flex justify-between items-center mb-8">
             <h1 class="text-2xl font-bold flex items-center">
                 <i class="fas fa-folder-open mr-2 text-primary"></i> My Files
             </h1>
-            <div class="relative w-64">
-                <form method="GET" action="files.php">
-                    <input type="text" name="search" placeholder="Search files..." 
-                           value="<?= htmlspecialchars($search_query) ?>"
-                           class="bg-gray-800 text-white px-4 py-2 rounded-lg pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
-                    <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
-                </form>
+            <div class="flex items-center space-x-4">
+                <?php if (count($files) > 0): ?>
+                    <a href="delete_all.php" 
+                       onclick="return confirm('Are you sure you want to delete ALL files? This action cannot be undone!')"
+                       class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg flex items-center transition duration-300">
+                        <i class="fas fa-trash-alt mr-2"></i> Delete All Files
+                    </a>
+                <?php endif; ?>
+                <div class="relative w-64">
+                    <form method="GET" action="files.php">
+                        <input type="text" name="search" placeholder="Search files..." 
+                               value="<?= htmlspecialchars($search_query) ?>"
+                               class="bg-gray-800 text-white px-4 py-2 rounded-lg pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -106,65 +181,62 @@ foreach ($files as $file) {
             </div>
 
             <?php if (count($files) > 0): ?>
-                <div class="overflow-x-auto">
-                    <table class="w-full">
-                        <thead class="bg-gray-800 text-gray-400">
-                            <tr>
-                                <th class="py-3 px-4 text-left">Filename</th>
-                                <th class="py-3 px-4 text-left">Size</th>
-                                <th class="py-3 px-4 text-left">Views</th>
-                                <th class="py-3 px-4 text-left">Uploaded</th>
-                                <th class="py-3 px-4 text-right">Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <?php foreach ($files as $file): ?>
-                                <tr class="border-b border-gray-700 hover:bg-gray-700">
-                                    <td class="py-3 px-4">
-                                        <div class="flex items-center">
-                                            <i class="fas fa-file text-blue-400 mr-3"></i>
-                                            <span class="truncate max-w-xs"><?= htmlspecialchars($file['original_filename']) ?></span>
-                                        </div>
-                                    </td>
-                                    <td class="py-3 px-4"><?= formatFileSize($file['file_size']) ?></td>
-                                    <td class="py-3 px-4"><?= $file['views'] ?></td>
-                                    <td class="py-3 px-4"><?= formatDate($file['upload_date']) ?></td>
-                                    <td class="py-3 px-4 text-right">
-                                        <div class="flex justify-end space-x-2">
-                                            <a href="view.php?id=<?= $file['filename'] ?>" 
-                                               class="text-blue-400 hover:text-blue-300 p-2 rounded-full hover:bg-gray-600"
-                                               title="View">
-                                                <i class="fas fa-eye"></i>
-                                            </a>
-                                            <a href="download.php?id=<?= $file['filename'] ?>" 
-                                               class="text-green-400 hover:text-green-300 p-2 rounded-full hover:bg-gray-600"
-                                               title="Download">
-                                                <i class="fas fa-download"></i>
-                                            </a>
-                                            <button onclick="copyLink('<?= getFileUrl($file['filename']) ?>')" 
-                                                    class="text-purple-400 hover:text-purple-300 p-2 rounded-full hover:bg-gray-600"
-                                                    title="Copy Link">
-                                                <i class="fas fa-copy"></i>
-                                            </button>
-                                            <a href="delete.php?id=<?= $file['id'] ?>" 
-                                               class="text-red-400 hover:text-red-300 p-2 rounded-full hover:bg-gray-600"
-                                               title="Delete"
-                                               onclick="return confirm('Are you sure you want to delete this file?')">
-                                                <i class="fas fa-trash"></i>
-                                            </a>
-                                        </div>
-                                    </td>
-                                </tr>
-                            <?php endforeach; ?>
-                        </tbody>
-                    </table>
+                <div class="file-grid">
+                    <?php foreach ($files as $file): ?>
+                        <div class="file-card">
+                            <?php if (isImageFile($file['file_type'])): ?>
+                                <img src="view.php?id=<?= $file['filename'] ?>" 
+                                     alt="<?= htmlspecialchars($file['original_filename']) ?>"
+                                     class="file-preview">
+                            <?php else: ?>
+                                <div class="file-icon">
+                                    <i class="fas <?= getFileIcon($file['file_type']) ?>"></i>
+                                </div>
+                            <?php endif; ?>
+                            <div class="file-info">
+                                <div class="file-name" title="<?= htmlspecialchars($file['original_filename']) ?>">
+                                    <?= htmlspecialchars($file['original_filename']) ?>
+                                </div>
+                                <div class="file-meta">
+                                    <?= formatFileSize($file['file_size']) ?> • <?= $file['views'] ?> views
+                                </div>
+                            </div>
+                            <div class="file-actions">
+                                <a href="view.php?id=<?= $file['filename'] ?>" 
+                                   class="text-blue-400 hover:text-blue-300"
+                                   title="View">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="download.php?id=<?= $file['filename'] ?>" 
+                                   class="text-green-400 hover:text-green-300"
+                                   title="Download">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                                <button onclick="copyLink('<?= getFileUrl($file['filename']) ?>')" 
+                                        class="text-purple-400 hover:text-purple-300"
+                                        title="Copy Link">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                                <a href="delete.php?id=<?= $file['id'] ?>" 
+                                   class="text-red-400 hover:text-red-300"
+                                   title="Delete"
+                                   onclick="return confirm('Are you sure you want to delete this file?')">
+                                    <i class="fas fa-trash"></i>
+                                </a>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
                 </div>
             <?php else: ?>
-                <div class="text-center py-12">
+                <div class="text-center py-8">
                     <i class="fas fa-folder-open text-4xl text-gray-500 mb-4"></i>
-                    <h3 class="text-xl font-semibold">No files found</h3>
+                    <h3 class="text-lg font-semibold">No files found</h3>
                     <p class="text-gray-400 mt-2">
-                        <?= empty($search_query) ? 'Upload your first file to get started' : 'No files match your search' ?>
+                        <?php if (!empty($search_query)): ?>
+                            No files match your search criteria
+                        <?php else: ?>
+                            Upload your first file to get started
+                        <?php endif; ?>
                     </p>
                 </div>
             <?php endif; ?>
